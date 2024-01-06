@@ -13,3 +13,23 @@
     2.4 Feche o terminal e abra novamente.
 
 3. Agora você pode rodar arquivos .banana com o comando `banana (caminho do arquivo banana)`.
+
+
+# O que dá pra fazer com a linguagem?
+
+- [x] Somar dois números inteiros.
+- [x] Subtrair dois números inteiros.
+- [x] Multiplicar dois números inteiros.
+- [x] Dividir dois números inteiros.
+
+## Operações:
+    `+` soma
+    `-` subtração
+    `*` multiplicação
+    `/` divisão
+
+## Exemplos:
+    `+ 1 1`
+    `- 1 1`
+    `* 1 1`
+    `/ 1 1`
