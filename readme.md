@@ -1,7 +1,7 @@
 # Teste localmente:
 
 1. Clone o repositório 
-`git clone https://...`
+`git clone https://github.com/antonionetodeveloper/banana-lang`
 
 2. Crie um alias para o "compilador banana"
     2.1 Abra o arquivo .bashrc ou .zshrc
