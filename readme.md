@@ -17,10 +17,10 @@
 
 # O que dá pra fazer com a linguagem?
 
-- [x] Somar dois números inteiros de 0 a 9.
-- [x] Subtrair dois números inteiros de 0 a 9.
-- [x] Multiplicar dois números inteiros de 0 a 9.
-- [x] Dividir dois números inteiros de 0 a 9.
+- [x] Somar dois números naturais de 0 a 9.
+- [x] Subtrair dois números naturais de 0 a 9.
+- [x] Multiplicar dois naturais inteiros de 0 a 9.
+- [x] Dividir dois números naturais de 0 a 9.
 
 ## Operações:
     `+` soma
