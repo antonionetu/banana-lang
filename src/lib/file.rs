@@ -1,3 +1,5 @@
+use crate::lib;
+
 pub fn get() -> String {
     let file = std::env::args().nth(1).expect("No file path provided");
     is_banana(file.clone());
@@ -6,7 +8,7 @@ pub fn get() -> String {
 
 fn is_banana(file: String) {
     if &file[file.len()-7 ..] != ".banana"{
-        panic!("Invalid file extension");
+        lib::functions::console::smash("Invalid file extension", file.to_string());
     };
 }
 

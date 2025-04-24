@@ -1,4 +1,5 @@
 mod analyzers;
+use crate::lib;
 
 pub fn to_peel(tokens: Vec<char>) {
     let mut peels = Vec::new();
@@ -14,7 +15,7 @@ pub fn to_peel(tokens: Vec<char>) {
     }
 
     if !current.is_empty() {
-        panic!("Expected ';'");
+        lib::functions::console::smash("Expected ';'", current);
     }
 
     for peel in peels {

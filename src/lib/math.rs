@@ -1,3 +1,5 @@
+use crate::lib;
+
 pub enum MathOperations {
     Sum,
     Sub,
@@ -5,13 +7,16 @@ pub enum MathOperations {
     Div,
 }
 
-pub fn find_math_operation(op: char) -> MathOperations {
+pub fn find_math_operation(op: &str) -> MathOperations {
     match op {
-        '+' => MathOperations::Sum,
-        '-' => MathOperations::Sub,
-        '*' => MathOperations::Mul,
-        '/' => MathOperations::Div,
-        _ => panic!("Invalid operator"),
+        "plus" => MathOperations::Sum,
+        "minus" => MathOperations::Sub,
+        "times" => MathOperations::Mul,
+        "divided" => MathOperations::Div,
+        _ => {
+            lib::functions::console::smash("Invalid operator", op.to_string());
+            panic!("No operation found.")
+        },
     }
 }
 
